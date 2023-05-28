@@ -8,24 +8,24 @@ Original file is located at
 """
 
 # asks the user to enter three different integers
-integer1, integer2, integer3 = int(input("Enter three different integers: ")), int(input()), int(input())
+integer_1, integer_2, integer_3 = int(input("Enter three different integers: ")), int(input()), int(input())
 
-# sum of the three integers
-sum = integer1 + integer2 + integer3 
-# print of sum
+# addition of the three integers
+sum = integer_1 + integer_2 + integer_3 
+# print of their sum
 print(sum)
 
 # subtraction of integer2 from integer1
-sub = integer1 - integer2 
-# print subtraction
-print(sub) 
+difference = integer_1 - integer_2 
+# print of the difference
+print(difference) 
 
 # multiplication of integer3 with integer1
-mult = integer3*integer1 
-# print multiplication
-print(mult) 
+product = integer_3*integer_1 
+# print the product of the multiplication
+print(product) 
 
 # instructions from the last bullet point
-last_bullet = sum / integer3 
-# print instructions from the last bullet point
+last_bullet = sum / integer_3 
+# print the answer of the the last bullet point
 print(last_bullet)
